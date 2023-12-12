@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const flag = document.createElement("img");
         flag.src = "flags/" + item;
         flag.id = item.substring(0, 2);
+        flag.className = 'flag';
         flag.alt = item.substring(0, 7);
         fragment.appendChild(flag);
   
